@@ -2,8 +2,8 @@
 #project for Metis Intro to Data Science spring 2016
 
 1. What is the question you hope to answer?
-* What is the proportion of salary and administrative expenses vs. charitable disbursements? (Basically, are foundations actually doing what they have been granted a tax exemption to do?) Are board members compensated? 
-* How far above the minimum disbursement requirement is typical? Is this correlated with anything (say, the size of the foundation's assets)?
+What is the proportion of salary and administrative expenses vs. charitable disbursements? (Basically, are foundations actually doing what they have been granted a tax exemption to do?) Are board members compensated? 
+How far above the minimum disbursement requirement is typical? Is this correlated with anything (say, the size of the foundation's assets)?
 
 2. What data are you planning to use to answer that question?
 The IRS has made available extracts of selected financial data filed by tax-exempt organizations in the years 2012, 2013, 2014, and 2015. I will be looking specifically at the extracts of Form 990-PF, which is filed by private foundations.
