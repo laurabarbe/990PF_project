@@ -1,16 +1,14 @@
 # 990PF_project
 #project for Metis Intro to Data Science spring 2016
 
-1. What is the question you hope to answer?
-What is the proportion of salary and administrative expenses vs. charitable disbursements? (Basically, are foundations actually doing what they have been granted a tax exemption to do?) Are board members compensated? 
-How far above the minimum disbursement requirement is typical? Is this correlated with anything (say, the size of the foundation's assets)?
+What is the question you hope to answer? 
+Private operating foundations are required to distribute a minimum amount (based on their investment returns) for charitable purposes each year. I am interested in seeing how far above the minimum distrbution is typical, and whether this amount is correlated with anything else.
 
-2. What data are you planning to use to answer that question?
-The IRS has made available extracts of selected financial data filed by tax-exempt organizations in the years 2012, 2013, 2014, and 2015. I will be looking specifically at the extracts of Form 990-PF, which is filed by private foundations.
+What data are you planning to use to answer that question? 
+The IRS has made available extracts of selected financial data filed by tax-exempt organizations in the years 2012, 2013, 2014, and 2015. I will be looking specifically at the extracts of Form 990-PF, which is filed by private foundations, for 2014.
 
+What do you know about the data you're using so far? 
+The data contains approximately 100,000 samples and 187 features. Several of the features are variations of one another (for instance, subtotals that make up a total), so some feature engineering will be required before any analysis can be performed.
 
-3. What do you know about the data you're using so far?
-Each data extract has information for about 100,000 organizations. Only total disbursements are reported, so unforuntately we can't look at the individual gifts that each foundation made. But we can look at other expenses and income.
-
-4. Why did you choose this topic?
-I work in fundraising for a large non-profit, and have been exposed to both well- and poorly-run private foundations. 
+Why did you choose this topic? 
+I work in fundraising for a large non-profit and am interested in better understanding the private grant-making world. 
